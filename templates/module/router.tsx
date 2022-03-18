@@ -1,6 +1,6 @@
-import * as React from 'react'
+import * as React from "react"
 
-import { IPascalCaseModuleNameInteractor } from './interactor'
+import { IPascalCaseModuleNameInteractor } from "./interactor"
 
 export interface IProps {
   interactor: IPascalCaseModuleNameInteractor
