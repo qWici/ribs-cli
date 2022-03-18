@@ -7,4 +7,4 @@ export interface IProps {}
 export const PascalCaseModuleName: React.FC<IProps> = () => {
   const interactor = usePascalCaseModuleNameInteractor();
   return <PascalCaseModuleNameRouter interactor={interactor} />;
-}
+};
