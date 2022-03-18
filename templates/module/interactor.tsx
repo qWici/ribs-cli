@@ -12,5 +12,5 @@ export const usePascalCaseModuleNameInteractor =
       children: {
         firstChild: true,
       },
-    }
-  }
+    };
+  };
