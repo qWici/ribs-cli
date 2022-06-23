@@ -5,12 +5,12 @@ export interface IPascalCaseModuleNameInteractor {
   }
 }
 
-export const usePascalCaseModuleNameInteractor =
-  (): IPascalCaseModuleNameInteractor => {
-    return {
-      exampleMethod: async () => {},
-      children: {
-        firstChild: true,
-      },
-    };
+export const usePascalCaseModuleNameInteractor = (): IPascalCaseModuleNameInteractor => {
+  return {
+    exampleMethod: async () => {
+    },
+    children: {
+      firstChild: true,
+    },
   };
+};
